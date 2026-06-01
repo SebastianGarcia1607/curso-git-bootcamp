@@ -25,10 +25,21 @@ var ideas: [AppIdea] = [
 // ALUMNOS: agreguen su AppIdea debajo de este comentario.
 ideas.append(
     AppIdea(
-        owner: "Juan Perez",
+        owner: "juan perez",
         semester: "3er semestre",
         appName: "StudentFlow",
         problem: "Quiero ver que el flujo funcione impecable.",
+        flagshipFeature: "Aprender Git sin estrés.",
+        swiftConcept: "Arrays"
+    )
+)
+
+ideas.append(
+    AppIdea(
+        owner: "Sebastian Garcia",
+        semester: "3er semestre",
+        appName: "ChessCode",
+        problem: "quiero el analisis de una partida",
         flagshipFeature: "Aprender Git sin estrés.",
         swiftConcept: "Arrays"
     )
